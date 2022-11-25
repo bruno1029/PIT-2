@@ -1,0 +1,10 @@
+//Design Patter:Immediately Invoked Function Expressions (IIFE)
+
+function sorteio() {
+ const min = document.getElementById("min").value;
+ const max = document.getElementById("max").value;
+ 
+ const sort = Math.floor((Math.random() * max) + min);
+ 
+ document.getElementById("Resultado").innerHTML=sort;
+}
